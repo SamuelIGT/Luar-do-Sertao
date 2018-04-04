@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'PlayfairDisplay-Black';
+    src: url(../font/PlayfairDisplay-Black.ttf);
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url(../font/PlayfairDisplay-Bold.ttf);
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url(../font/PlayfairDisplay-Regular.ttf);
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url(../font/SourceSansPro-Regular.ttf);
+    font-size: 1em;
+}
+.main-header{
+    margin: auto;
+    width: 50%;
+    vertical-align: middle;
+}
+.header{
+    display: inline-block;
+}
+header .header-menu{
+    margin-left: 2em;
+}
+header{
+    margin: 1em auto;
+}
+header .logo{
+    text-align: center;
+    line-height: 0;
+    float: left;
+}
+.logo h5{
+    font-family: 'PlayfairDisplay-Black';
+}
+.logo h7{
+    font-family: 'SourceSansPro-Regular';
+    font-size: 0.8em;
+}
+header .main-header a{
+    text-decoration: none;
+    color: #373737;
+    display: inline-block;
+    padding: 1em;
+    font-family: 'SourceSansPro-Regular';
+}
+header .main-header a:hover{
+    background-color: #373737;
+    color: #cecece;
+    transition: all 0.4s ease-out;
+}
+
+header .identification{
+    float: right;
+}
+footer{
+    background: #1C1C1C;
+    min-height: 18em;
+}
+#copyright-note{
+    color: #cecece;
+    float: right;
+}
+
+#contact-us-msg{
+    color: #cecece;
+    text-align: center;
+    float: left;
+}
+#contact-us-msg h5{
+    font-size: 1.25em;
+    font-family: 'PlayfairDisplay-Regular';
+
+}
+#contact-us-msg h7{
+    font-size: 0.8em;
+    font-family: 'SourceSansPro-Regular';
+}
+#main-footer-container{
+    margin: auto;
+    min-height: 70%;
+    display: inline-table;
+}
+.social-media{
+    display: inline-block;
+}
+.social-media ul{
+    display: inline-block;
+    margin-left: 3em;
+}
+.social-media li{
+    display: inline-block;
+    margin: auto 2em;
+}
+
+footer .logo{
+    float: right;
+    color: #cecece;
+    text-align: center;
+    line-height: 0;
+
+}
+footer ul{
+    display: inline-block;
+    padding: 0;
+}
+#footer-menu-first-item{
+    margin: auto 0;
+}
+
+footer li{
+    display: inline-block;
+    color: #cecece;
+    margin: auto 1em;
+}
+footer li a{
+    color: #cecece;
+}
+footer li a:hover{
+    color: #cecece;
+}
+#footer-container{
+    flex-grow: 1;
+    display: flex;
+}
+.footer-row-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.main-banner img{
+    max-width: 100%;
+    height: auto;
+}
+.main-banner{
+    display: flex;
+}
+.banner-text{
+    position: absolute!important;
+    margin-top: 20%;
+    margin-left: 10%;
+    text-shadow: 2px 2px 2px #000000;
+    color: #FFFFFF;
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 3vw;
+
+
+}
+.banner-text h1{
+    font-size: 3vw;
+}
+.banner-text h2{
+    line-height: 0.7em;
+    font-size: 3vw;
+}
+
+/* Pagina Hotel */
+#owl-demo .item img{
+    margin: auto;
+    display: block;
+    /* width: 50%; */
+    height: auto;
+    transition: all 0.3s ease-out;
+}
+.carousel-title{
+    transition: all 0.3s ease-out;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #cecece;
+    text-shadow: 2px 2px 2px #000000;
+}
+.carousel-description{
+    transition: all 0.3s ease-out;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+}
+
+#owl-demo .item img:hover + .carousel-title{
+    font-size: 2vw;
+    text-shadow: unset;
+}
+#owl-demo .item img:hover{
+    opacity: 0.7;
+
+}
+#owl-demo .item img:hover + span{
+    color: #1C1C1C;
+}
+#owl-demo .item img:hover .carousel-description{
+    font-size: 1.5vw;
+}
+.owl-carousel .container span{
+    font-family: 'SourceSansPro-Regular';
+    margin: 0.5vw;
+}
+
+#rooms .item{
+    font-family: 'SourceSansPro-Regular';
+    font-size: 1.5vw;
+}
+#rooms .room-price{
+    color: green;
+    font-weight: bold;
+}
+.reservation-form{
+    margin: 2vw;
+}
+.payment{
+    margin: 8px;
+}
+.divisor-line{
+    height: 4px;
+    width: 25%;
+    margin: 3.5vw auto;
+    background: #373737;
+    border: 3px solid #373737;
+}
+.table{
+    /* border: 4px  solid #373737; */
+    border-top: 4px  solid #373737;
+    border-bottom: 4px  solid #373737;
+}
+body table{
+    border-collapse: collapse;
+}
+body table tr{
+    transition: all 0.3s ease-out;
+}
+body table tr:hover{
+    font-size: 1.5vw;
+}
+

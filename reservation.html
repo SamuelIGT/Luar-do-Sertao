@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hotel Luar do Sertão </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="lib/bootstrap/css/bootstrap.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="lib/owlcarousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel2/dist/assets/owl.theme.default.min.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="main-header col-md-10 ">
+            <div class="header logo">
+                <h5>luar do sertão.</h5>
+                <h7>HOTEL & RESORT</h7>
+            </div>
+            <div class="header header-menu col-md-6 ">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="hotel.html">Hotel</a>
+                    <a href="rooms.html">Rooms</a>
+                    <a href="reservation.html">Reservation</a>
+                </nav>
+            </div>
+
+            <div class="header identification">
+                <a href="#">Log in</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="reservation-form">
+        <form>
+            <div class="form-group">
+                <label for="fname">Nome</label>
+                <input class="form-control" type="text" id="fname" name="name" required placeholder="Seu nome..">
+            </div>
+
+            <div class="form-group">
+                <label for="cpf">CPF</label>
+                <input class="form-control" type="number" id="cpf" name="cpf" required placeholder="Seu CPF..">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" name="email" required placeholder="Seu email..">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input class="form-control" type="number" id="phone" name="phone" required placeholder="Seu numero de telefone..">
+            </div>
+
+            <div class="form-group">
+                <label for="checkin">Data de Entrada</label>
+                <input class="form-control" type="date" id="checkin" required name="checkin">
+             </div>
+
+            <div class="form-group">
+                <label for="checkout">Data de Saída</label>
+                <input class="form-control" type="date" id="checkout" required name="checkout">
+            </div>
+
+            <div class="form-group">
+                <label for="checkout">Data de Saída</label>
+                <input class="form-control" type="date" id="checkout" required name="checkout">
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Quantidade de Pessoas</label>
+                <input class="form-control" type="number" id="amount" required name="amount of people" min="1" max="4">
+            </div>
+
+            <div class="form-group">
+                <label for="room">Tipo de Quarto</label>
+                <select class="form-control" id="room" name="room type">
+                    <option value="presidencial">Presidencial</option>
+                    <option value="premium">Premium</option>
+                    <option value="lux">Lux</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="payment">Tipo de Pagamento: </label>
+                <label class="radio-inline"><input class="payment" type="radio" name="optradio">Crédito</label>
+                <label class="radio-inline"><input class="payment"type="radio" name="optradio">Débito</label>
+                <label class="radio-inline"><input class="payment"type="radio" name="optradio">Dinheiro</label>
+            </div>
+
+            <input class="btn btn-dark" type="submit" value="Enviar">
+            <input class="btn btn-danger" type="reset" value="Resetar">
+        </form>
+    </div>
+
+
+    <footer style="display:flex;">
+            <div class="container-fluid" id="footer-container">
+                <div class="col-md-10" id="main-footer-container">
+                    <div class="row footer-row-top">
+                        <div class="container-fluid">
+                            <div id="contact-us-msg">
+                                <h5>Get in touch with us</h5>
+                                <h7>CONTACT & SOCIAL MEDIA CHANNELS</h7>
+                            </div>
+                            <div class="social-media">
+                                <ul class="list-unstyled list-socials">
+                                    <li><a href="location.html"><i class="fas fa-map-marker-alt" style="font-size: 2.5em; margin: 7px auto; color:#FAFAFA;"></i></a></li>
+                                    <li><a href="tel:+1800229933"><i class="fas fa-phone" style="font-size: 2.5em; margin: 7px auto; color:#FAFAFA;"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-tripadvisor" style="font-size: 2.5em; margin: 7px auto; color:#FAFAFA;"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f" style="font-size: 2.5em; margin: 7px auto; color:#FAFAFA;"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram" style="font-size: 2.5em; margin: 7px auto; color:#FAFAFA;"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="header logo">
+                                    <h5>luar do sertão.</h5>
+                                    <h7>HOTEL & RESORT</h7>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-row-bottom">
+                        <div class="license">
+                            <p class="" id="copyright-note">Copyright 2018. Hotel Inc.</p>
+                            <ul>
+                                <li id="footer-menu-first-item"><a href="index.html">Home</a></li>
+                                <li><a href="hotel.html">Hotel</a></li>
+                                <li><a href="rooms.html">Rooms</a></li>
+                                <li><a href="reservation.html">Reservations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="lib/owlcarousel2/dist//owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
